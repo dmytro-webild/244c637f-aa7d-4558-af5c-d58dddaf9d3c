@@ -9,17 +9,12 @@ const ProductsPage = () => {
   const footerNavItems = [{ title: "Company", items: [{ label: "Home", href: "/" }, { label: "About Us", href: "/about" }, { label: "Products", href: "/products" }, { label: "Contact", href: "/contact" }] }, { title: "Contact Info", items: [{ label: "Tel: +82 53 563 0720", href: "tel:+82535630720" }] }];
 
   return (
-    <ThemeProvider defaultButtonVariant="hover-magnetic" borderRadius="pill">
-      <NavbarStyleFullscreen brandName="JONG HYUK TEXTILE" navItems={navItems} />
+    <ThemeProvider defaultButtonVariant="hover-magnetic" defaultTextAnimation="entrance-slide" borderRadius="pill" contentWidth="medium" sizing="medium" background="circleGradient" cardStyle="glass-elevated" primaryButtonStyle="gradient" secondaryButtonStyle="glass" headingFontWeight="normal">
+      <div id="nav" data-section="nav"><NavbarStyleFullscreen brandName="JONG HYUK TEXTILE" navItems={navItems} /></div>
       <main className="container mx-auto py-20 px-4">
         <h1 className="text-4xl font-bold mb-8">Our Products</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-           <div className="p-6 border rounded-xl"><h3>Silky Polyester</h3><p>Luxury feel, durable performance.</p></div>
-           <div className="p-6 border rounded-xl"><h3>Digital Print Fabrics</h3><p>Infinite design possibilities.</p></div>
-           <div className="p-6 border rounded-xl"><h3>Brocade Fabrics</h3><p>Elegant and intricate textures.</p></div>
-        </div>
       </main>
-      <FooterBase columns={footerNavItems} />
+      <div id="footer" data-section="footer"><FooterBase columns={footerNavItems} /></div>
     </ThemeProvider>
   );
 };
