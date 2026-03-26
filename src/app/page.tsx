@@ -133,43 +133,43 @@ const HomePage = () => {
             {
               title: "Silk-Like Polyester Technology",              description: "Specialized in creating polyester fabrics with the luxurious look and feel of natural silk.",              icon: Sparkles,
               mediaItems: [
-                { type: "image", src: resolvedAssets["feature-fabric-development"], alt: "Silk-like polyester fabric texture" },
-                { type: "image", src: resolvedAssets["feature-quality-control"], alt: "Fabric quality inspection" },
+                { src: resolvedAssets["feature-fabric-development"], alt: "Silk-like polyester fabric texture" },
+                { src: resolvedAssets["feature-quality-control"], alt: "Fabric quality inspection" }
               ],
             },
             {
               title: "Seasonal Fabric Development",              description: "Continuously developing new items inspired by global market trends and customer needs every season.",              icon: Lightbulb,
               mediaItems: [
-                { type: "image", src: resolvedAssets["feature-fabric-development"], alt: "Fabric research and development" },
-                { type: "image", src: resolvedAssets["feature-quality-control"], alt: "Fabric testing equipment" },
+                { src: resolvedAssets["feature-fabric-development"], alt: "Fabric research and development" },
+                { src: resolvedAssets["feature-quality-control"], alt: "Fabric testing equipment" }
               ],
             },
             {
               title: "Competitive Pricing",              description: "Offering cost-effective solutions without compromising on the superior quality of our textiles.",              icon: DollarSign,
               mediaItems: [
-                { type: "image", src: resolvedAssets["feature-quick-delivery"], alt: "Global shipping containers" },
-                { type: "image", src: resolvedAssets["feature-competitive-price"], alt: "Competitive pricing chart" },
+                { src: resolvedAssets["feature-quick-delivery"], alt: "Global shipping containers" },
+                { src: resolvedAssets["feature-competitive-price"], alt: "Competitive pricing chart" }
               ],
             },
             {
               title: "Quick Delivery",              description: "Streamlined logistics and efficient production ensure timely delivery to your global destinations.",              icon: Rocket,
               mediaItems: [
-                { type: "image", src: resolvedAssets["feature-quick-delivery"], alt: "Cargo ship at port" },
-                { type: "image", src: resolvedAssets["feature-competitive-price"], alt: "Logistics network map" },
+                { src: resolvedAssets["feature-quick-delivery"], alt: "Cargo ship at port" },
+                { src: resolvedAssets["feature-competitive-price"], alt: "Logistics network map" }
               ],
             },
             {
               title: "Best Quality Guarantee",              description: "Rigorous quality control processes ensure every fabric meets international standards of excellence.",              icon: CheckCircle,
               mediaItems: [
-                { type: "image", src: resolvedAssets["feature-quality-control"], alt: "Textile quality inspection" },
-                { type: "image", src: resolvedAssets["feature-fabric-development"], alt: "Textile lab equipment" },
+                { src: resolvedAssets["feature-quality-control"], alt: "Textile quality inspection" },
+                { src: resolvedAssets["feature-fabric-development"], alt: "Textile lab equipment" }
               ],
             },
             {
               title: "Reliable Export Experience",              description: "Decades of experience in export business, ensuring smooth and dependable transactions for overseas buyers.",              icon: CheckCircle,
               mediaItems: [
-                { type: "image", src: resolvedAssets["feature-quick-delivery"], alt: "Export documentation" },
-                { type: "image", src: resolvedAssets["feature-competitive-price"], alt: "Global business partners" },
+                { src: resolvedAssets["feature-quick-delivery"], alt: "Export documentation" },
+                { src: resolvedAssets["feature-competitive-price"], alt: "Global business partners" }
               ],
             },
           ]}
