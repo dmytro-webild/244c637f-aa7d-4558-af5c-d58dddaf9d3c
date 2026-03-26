@@ -14,7 +14,7 @@ import { Sparkles, Lightbulb, DollarSign, Rocket, CheckCircle, Gauge, Award, Glo
 
 const HomePage = () => {
   const resolvedAssets = {
-    "hero-fabric-rolls": "http://img.b2bpic.net/free-photo/close-up-man-male-senior-tailor-selecting-fabric-shelf_23-2148180337.jpg",    "testimonial-avatar-1": "http://img.b2bpic.net/free-photo/indoor-shot-attractive-caucasian-teenage-woman-with-long-dark-hair-sitting-desk-with-lots-textbooks_273609-1136.jpg",    "testimonial-avatar-2": "http://img.b2bpic.net/free-photo/confident-young-businesswoman-standing-city-smiling-generated-by-ai_188544-20361.jpg",    "testimonial-avatar-3": "http://img.b2bpic.net/free-photo/confident-african-american-businessman-black-classic-jacket-isolated-dark-background_613910-17869.jpg",    "testimonial-avatar-4": "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1652.jpg",    "hero-avatar-1": "http://img.b2bpic.net/free-photo/senior-man-taking-measurement-fabric-customer-shop_23-2148180333.jpg",    "hero-avatar-2": "http://img.b2bpic.net/free-photo/handsome-bearded-fashion-designer-taking-break-from-work-thinking-about-new-designs_613910-5289.jpg",    "hero-avatar-3": "http://img.b2bpic.net/free-photo/portrait-young-business-man-posing-with-crossed-arms_23-2149206526.jpg",    "hero-avatar-4": "http://img.b2bpic.net/free-photo/medium-shot-brazilian-woman-working-as-clothing-designer_23-2150762234.jpg",    "hero-avatar-5": "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg",    "feature-fabric-development": "http://img.b2bpic.net/free-photo/still-life-fashion-designer-s-office_23-2150543686.jpg",    "feature-quality-control": "http://img.b2bpic.net/free-photo/store-customer-waiting-counter_482257-85808.jpg",    "feature-quick-delivery": "http://img.b2bpic.net/free-photo/close-up-volunteer-oganizing-stuff-donation_23-2149134476.jpg",    "feature-competitive-price": "http://img.b2bpic.net/free-photo/vintage-woman-sewing-cloth-by-hand-with-embroidery-set-wooden-table-people-handmade-diy-housework-concept_1150-13525.jpg",    "product-silky-polyester": "http://img.b2bpic.net/free-photo/silk-fabric-creme-material-home-decoration_23-2148516038.jpg",    "product-rayon-fabric": "http://img.b2bpic.net/free-photo/closeup-shot-colorful-fabric-section-outdoor-market_181624-17441.jpg",    "product-nylon-fabric": "http://img.b2bpic.net/free-photo/smooth-elegant-purple-fabric-material-texture_23-2148402307.jpg",    "product-brocade-fabric": "http://img.b2bpic.net/free-photo/top-view-pinecone-beige-shawl-dark-surface_140725-63512.jpg",    "product-digital-print": "http://img.b2bpic.net/free-photo/rolls-textiles-factory_23-2147774204.jpg",    "contact-background": "http://img.b2bpic.net/free-photo/close-up-glasses-with-employees-background_1098-2575.jpg"
+    "hero-fabric-rolls": "http://img.b2bpic.net/free-photo/close-up-man-male-senior-tailor-selecting-fabric-shelf_23-2148180337.jpg",    "testimonial-avatar-1": "http://img.b2bpic.net/free-photo/indoor-shot-attractive-caucasian-teenage-woman-with-long-dark-hair-sitting-desk-with-lots-textbooks_273609-1136.jpg",    "testimonial-avatar-2": "http://img.b2bpic.net/free-photo/confident-young-businesswoman-standing-city-smiling-generated-by-ai_188544-20361.jpg",    "testimonial-avatar-3": "http://img.b2bpic.net/free-photo/confident-african-american-businessman-black-classic-jacket-isolated-dark-background_613910-17869.jpg",    "testimonial-avatar-4": "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1652.jpg",    "hero-avatar-1": "http://img.b2bpic.net/free-photo/senior-man-taking-measurement-fabric-customer-shop_23-2148180333.jpg",    "hero-avatar-2": "http://img.b2bpic.net/free-photo/handsome-bearded-fashion-designer-taking-break-from-work-thinking-about-new-designs_613910-5289.jpg",    "hero-avatar-3": "http://img.b2bpic.net/free-photo/portrait-young-business-man-posing-with-crossed-arms_23-2149206526.jpg",    "hero-avatar-4": "http://img.b2bpic.net/free-photo/medium-shot-brazilian-woman-working-as-clothing-designer_23-2150762234.jpg",    "hero-avatar-5": "http://img.b2bpic.net/free-photo/happy-professional-partners-posing-photo-smiling-looking-camera-african-american-successful-businessman-caucasian-businesswoman-taking-selfie-teamwork-business-concept_74855-7442.jpg",    "feature-fabric-development": "http://img.b2bpic.net/free-photo/still-life-fashion-designer-s-office_23-2150543686.jpg",    "feature-quality-control": "http://img.b2bpic.net/free-photo/store-customer-waiting-counter_482257-85808.jpg",    "feature-quick-delivery": "http://img.b2bpic.net/free-photo/close-up-volunteer-oganizing-stuff-donation_23-2149134476.jpg",    "feature-competitive-price": "http://img.b2bpic.net/free-photo/vintage-woman-sewing-cloth-by-hand-with-embroidery-set-wooden-table-people-handmade-diy-housework-concept_1150-13525.jpg",    "product-silky-polyester": "http://img.b2bpic.net/free-photo/silk-fabric-creme-material-home-decoration_23-2148516038.jpg",    "product-rayon-fabric": "http://img.b2bpic.net/free-photo/closeup-shot-colorful-fabric-section-outdoor-market_181624-17441.jpg",    "product-nylon-fabric": "http://img.b2bpic.net/free-photo/smooth-elegant-purple-fabric-material-texture_23-2148402307.jpg",    "product-brocade-fabric": "http://img.b2bpic.net/free-photo/top-view-pinecone-beige-shawl-dark-surface_140725-63512.jpg",    "contact-background": "http://img.b2bpic.net/free-photo/close-up-glasses-with-employees-background_1098-2575.jpg"
   };
 
   const navItems = [
@@ -26,7 +26,9 @@ const HomePage = () => {
     {
       title: "Company",      items: [
         { label: "Home", href: "/" },
-        { label: "About Us", href: "/about" }
+        { label: "About Us", href: "/about" },
+        { label: "Products", href: "/products" },
+        { label: "Contact", href: "/contact" },
       ],
     },
     {
@@ -72,23 +74,19 @@ const HomePage = () => {
             {
               name: "Sarah Chen",              handle: "Fashion Buyer, USA",              testimonial: "JONG HYUK TEXTILE consistently delivers exceptional quality and innovative fabrics. Their silky polyester is unparalleled.",              rating: 5,
               imageSrc: resolvedAssets["testimonial-avatar-1"],
-              imageAlt: "Sarah Chen, Fashion Buyer"
-            },
+              imageAlt: "Sarah Chen, Fashion Buyer"},
             {
               name: "Ahmed Al-Mansoori",              handle: "Garment Manufacturer, UAE",              testimonial: "Reliable delivery and competitive pricing make JONG HYUK TEXTILE our preferred partner for diverse fabric needs.",              rating: 5,
               imageSrc: resolvedAssets["testimonial-avatar-2"],
-              imageAlt: "Ahmed Al-Mansoori, Garment Manufacturer"
-            },
+              imageAlt: "Ahmed Al-Mansoori, Garment Manufacturer"},
             {
               name: "Maria Garcia",              handle: "Textile Importer, Spain",              testimonial: "Their commitment to customer-oriented development and quick response times are truly impressive. A fantastic partner.",              rating: 5,
               imageSrc: resolvedAssets["testimonial-avatar-3"],
-              imageAlt: "Maria Garcia, Textile Importer"
-            },
+              imageAlt: "Maria Garcia, Textile Importer"},
             {
               name: "Dr. Kenji Tanaka",              handle: "Design Director, Japan",              testimonial: "The versatility and quality of their digital print fabrics allow us endless creative possibilities every season.",              rating: 5,
               imageSrc: resolvedAssets["testimonial-avatar-4"],
-              imageAlt: "Dr. Kenji Tanaka, Design Director"
-            },
+              imageAlt: "Dr. Kenji Tanaka, Design Director"},
           ]}
           testimonialRotationInterval={5000}
           useInvertedBackground={false}
@@ -183,29 +181,25 @@ const HomePage = () => {
       <div id="products-home" data-section="products-home">
         <ProductCardTwo
           animationType="slide-up"
-          title="Our Premium Fabric Collections for Export"
-          description="Explore our exceptional range of polyester-based fabrics, meticulously crafted for global fashion brands and garment manufacturers. Emphasizing luxury, innovation, and durability."
+          title="Our Premium Fabric Collections"
+          description="Discover our diverse range of high-quality polyester-based fabrics, crafted for global fashion and garment manufacturers."
           products={[
             {
               id: "1",              brand: "JONG HYUK TEXTILE",              name: "Silky Polyester Fabrics",              price: "Inquire for Quote",              rating: 5,
               reviewCount: "120+",              imageSrc: resolvedAssets["product-silky-polyester"],
-              imageAlt: "Luxurious silky polyester fabric with a smooth drape"
-            },
+              imageAlt: "Luxurious silky polyester fabric"},
             {
-              id: "2",              brand: "JONG HYUK TEXTILE",              name: "Digital Print Fabrics",              price: "Inquire for Quote",              rating: 5,
-              reviewCount: "95+",              imageSrc: resolvedAssets["product-digital-print"],
-              imageAlt: "Rolls of fabric showcasing vibrant digital prints"
-            },
+              id: "2",              brand: "JONG HYUK TEXTILE",              name: "Rayon Fabrics",              price: "Inquire for Quote",              rating: 5,
+              reviewCount: "90+",              imageSrc: resolvedAssets["product-rayon-fabric"],
+              imageAlt: "Soft and breathable rayon fabric"},
             {
               id: "3",              brand: "JONG HYUK TEXTILE",              name: "Nylon Fabrics",              price: "Inquire for Quote",              rating: 5,
               reviewCount: "75+",              imageSrc: resolvedAssets["product-nylon-fabric"],
-              imageAlt: "Durable and versatile nylon fabric in a rich purple hue"
-            },
+              imageAlt: "Durable and versatile nylon fabric"},
             {
               id: "4",              brand: "JONG HYUK TEXTILE",              name: "Brocade Fabrics",              price: "Inquire for Quote",              rating: 5,
               reviewCount: "60+",              imageSrc: resolvedAssets["product-brocade-fabric"],
-              imageAlt: "Ornate brocade fabric with intricate woven patterns and rich texture"
-            },
+              imageAlt: "Ornate brocade fabric with intricate patterns"},
           ]}
           gridVariant="uniform-all-items-equal"
           textboxLayout="default"
@@ -218,8 +212,7 @@ const HomePage = () => {
           title="Serving Global Markets"
           description="Proudly supplying high-quality Korean textiles to discerning clients across key international markets."
           names={[
-            "Morocco",            "Turkey",            "Saudi Arabia",            "U.A.E.",            "Europe",            "America",            "Asia Pacific"
-          ]}
+            "Morocco",            "Turkey",            "Saudi Arabia",            "U.A.E.",            "Europe",            "America",            "Asia Pacific"]}
           textboxLayout="default"
           useInvertedBackground={false}
           speed={35}
