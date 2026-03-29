@@ -10,7 +10,7 @@ const AboutPage = () => {
 
   return (
     <ThemeProvider defaultButtonVariant="hover-magnetic" defaultTextAnimation="entrance-slide" borderRadius="pill" contentWidth="medium" sizing="medium" background="circleGradient" cardStyle="glass-elevated" primaryButtonStyle="gradient" secondaryButtonStyle="glass" headingFontWeight="normal">
-      <div id="nav" data-section="nav"><NavbarStyleFullscreen brandName="JONG HYUK TEXTILE" navItems={navItems} /></div>
+      <div id="nav" data-section="nav"><NavbarStyleFullscreen brandName="JONG HYUK TEXTILE CO., LTD." navItems={navItems} /></div>
       <main className="container mx-auto py-20 px-4">
         <h1 className="text-4xl font-bold mb-8">About Us</h1>
         <p className="text-lg mb-6">JONG HYUK TEXTILE CO., LTD. is a premier Korean textile exporter.</p>
