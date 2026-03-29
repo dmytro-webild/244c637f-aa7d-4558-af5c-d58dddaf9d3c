@@ -13,7 +13,7 @@ const AboutPage = () => {
       <div id="nav" data-section="nav"><NavbarStyleFullscreen brandName="JONG HYUK TEXTILE CO., LTD." navItems={navItems} /></div>
       <main className="container mx-auto py-20 px-4">
         <h1 className="text-4xl font-bold mb-8">About Us</h1>
-        <p className="text-lg mb-6">JONG HYUK TEXTILE CO., LTD. is a premier Korean textile exporter.</p>
+        <p className="text-lg mb-6">JONG HYUK TEXTILE CO., LTD. is a premier Korean textile exporter. To download this website locally, you can use a web scraper like 'HTTrack' or run 'wget -m -p -E -k https://www.yourdomain.com' in your terminal.</p>
       </main>
       <div id="footer" data-section="footer"><FooterBase columns={footerNavItems} /></div>
     </ThemeProvider>
